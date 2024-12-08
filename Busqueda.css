@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Fondo gris */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.device {
+    width: 375px; /* Tamaño similar a un dispositivo móvil */
+    height: 667px; /* Alto de un móvil típico */
+    background-color: #fff; /* Fondo blanco para el "dispositivo" */
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #001a57;
+    font-size: 22px;
+    margin: 15px 0 0 0;
+}
+
+.menu-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search-box {
+    padding: 20px;
+    text-align: center;
+    border-width: 5px;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+.buscar {
+    
+}
+
+.nav-item {
+    text-align: center;
+    color: #001a57;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-item.active {
+    color: red;
+    font-weight: 700;
+}
+
+.nav-item span {
+    font-size: 24px;
+    display: block;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+.device {
+    width: 375px; /* Tamaño similar a un dispositivo móvil */
+    height: 667px; /* Alto de un móvil típico */
+    background-color: #fff; /* Fondo blanco para el "dispositivo" */
+    border-radius: 30px; /* Borde redondeado */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px; /* Borde redondeado dentro del contenedor */
+    overflow: hidden; /* Para que los contenidos también sigan la curva */
+}

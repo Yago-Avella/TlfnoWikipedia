@@ -1,0 +1,90 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.phone-frame {
+    width: 300px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    background-color: #e0f0ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.user-icon {
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 1.2em;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.content {
+    padding: 15px;
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #333;
+    text-align: left;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.btn-directions, .btn-share {
+    background-color: #ff6666;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.btn-share {
+    background-color: #6666ff;
+}
